@@ -1,4 +1,15 @@
-*{
+a{
+    text-decoration: none;
+    color: #D1A954;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
 
 }
 ul.menu-row1{
@@ -10,162 +21,40 @@ li {
 }
 /* logo */
 img.main-logo{
-position: absolute;
+position: relative;
 width: 160px;
 height: 87px;
-left: 160px;
-top: 60px;
-/* background: url(logo_big.png); */
 }
 /* main-menu */
 ul.main-menu-row2{
 /* overflow: hidden; */ 
 list-style-type: none;
 position: relative;
-/* width: 774px;
-height: 29px;
-left: 568px;
-top: 88px; */
+/* float: left; */
+/* padding: 15px; */
+
 }
 ul.main-menu-row2 li{
     float: left;
+    margin: 5px;
+}
+.head-row1{
+    list-style-type: none;
+    overflow: hidden;
+}
+.head-row1 li{
+    padding-top: 1.5em;
+    float: left;
+}
+.main-menu-box{
+    padding: 5px;
+    border: 1px #D1A954 solid;
 }
 
-/* Главная */
-li.main-menu-1{ 
-position: absolute;
-width: 70px;
-height: 16px;
-left: 577px;
-top: 95px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 16px;
-/* identical to box height */
-text-align: center;
-letter-spacing: 0.05em;
-text-transform: uppercase;
-
-/* Accent */
-color: #D1A954;
-}
-
-/* Rectangle 2 */
-.rect-1{
-position: absolute;
-width: 88px;
-height: 29px;
-left: 568px;
-top: 88px;
-
-border: 1px solid rgba(209, 169, 84, 0.9);
-box-sizing: border-box;
-}
-
-/* МЕРОПРИЯТИЯ */
-li.main-menu-3{
-position: absolute;
-width: 116px;
-height: 16px;
-left: 859px;
-top: 95px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 300;
-font-size: 13px;
-line-height: 16px;
-/* identical to box height */
-letter-spacing: 0.05em;
-text-transform: uppercase;
-
-color: #000000;
-}
-
-
-/* ТУРИСТАМ */
-li.main-menu-4{
-position: absolute;
-width: 79px;
-height: 16px;
-left: 1005px;
-top: 95px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 300;
-font-size: 13px;
-line-height: 16px;
-/* identical to box height */
-letter-spacing: 0.05em;
-text-transform: uppercase;
-
-color: #000000;
-}
-
-
-/* КЕЙТЕРИНГ */
-li.main-menu-5{
-position: absolute;
-width: 87px;
-height: 16px;
-left: 1114px;
-top: 95px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 300;
-font-size: 13px;
-line-height: 16px;
-/* identical to box height */
-letter-spacing: 0.05em;
-text-transform: uppercase;
-
-color: #000000;
-}
-
-
-/* ДЛЯ АГЕНТСТВ */
-li.main-menu-1{
-position: absolute;
-width: 111px;
-height: 16px;
-left: 1231px;
-top: 95px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 300;
-font-size: 13px;
-line-height: 16px;
-/* identical to box height */
-letter-spacing: 0.05em;
-text-transform: uppercase;
-
-color: #000000;
-}
-
-/* SOFIT EVENT HOUSE */
-li.main-menu-2{
-position: absolute;
-width: 152px;
-height: 16px;
-left: 677px;
-top: 95px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 13px;
-line-height: 16px;
-/* identical to box height */
-letter-spacing: 0.05em;
-text-transform: uppercase;
-
-/* Accent */
-color: #D1A954;
+p{
+    padding: 12px;
+    position: relative;
+    left: 70px;
 
 }
+
