@@ -58,3 +58,34 @@ p{
 
 }
 
+div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
+
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+      top:-20px;
+    }
+.rectangle2.2{
+    position: absolute;
+width: 580px;
+height: 166px;
+left: 60px;
+top: 691px;
+
+background: rgba(209, 169, 84, 0.9);
+}
+
