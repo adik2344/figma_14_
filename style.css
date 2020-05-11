@@ -1,6 +1,7 @@
 *{
     margin:0;
     box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
 }
 /* Header */
 .header{
@@ -36,46 +37,42 @@
     justify-content: center;
     align-items: center;
 }
+a.main-menu-box{
+    padding: 3px;
+    border: 1px solid #D1A954;
+}
 .main-menu-row a{
     text-decoration: none;
     color: #D1A954;
+    display: inline-block;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 18px;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.04em;
+    margin: 5px;
     text-transform: uppercase;
-    /* position: absolute; */
-    /* display: block; */
-    /* display: inline-block; */
-    /* width: auto; */
 }/* /menu  */
 /* Burger menu */
 .ext-menu{
     position: absolute;
-    /* justify-content: right; */
     right: 5px;
-    
-    /* align-items: center; */
     width: 30px;
     height: inherit;
-    border: inherit;
-    
-    /* height: 2px; */
 }
 .ext-menu a{
-    /* display: block; */
+    display: block;
     height: 1px;
     width: 25px;
     top:  50%;
-    /* margin: 5px; */
+    padding: 0px;
     border: 1px solid #D1A954;
     position: absolute;
 }
-.ext-menu a::before{
-    
-    top: 5px;
+.ext-menu a:after{
+    content: a;
+    top: 51%;
     border: 1px solid #D1A954;
     
 }/* /burger menu */
